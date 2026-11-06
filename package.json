@@ -1,0 +1,28 @@
+﻿{
+  "name": "auragate",
+  "version": "0.1.0",
+  "description": "Autonomous legacy-to-modern wire protocol bridge and schema synthesizer",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx src/server.ts",
+    "mcp": "tsx src/mcp/server.ts",
+    "build": "tsc",
+    "test": "tsx --test tests/pbt/*.test.ts"
+  },
+  "keywords": ["ebcdic", "iso8583", "mcp", "spec-driven-development", "kiro"],
+  "author": "Oyetunde Daniel",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "fast-check": "^3.23.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

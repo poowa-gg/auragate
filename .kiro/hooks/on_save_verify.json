@@ -1,0 +1,9 @@
+﻿{
+  "name": "on-save-pbt-verification",
+  "trigger": "file_change",
+  "pattern": "src/core/**/*.ts",
+  "action": {
+    "command": "npm test",
+    "notifyOnFailure": true
+  }
+}

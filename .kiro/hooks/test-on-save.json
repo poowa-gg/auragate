@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run PBT Suite on TypeScript Save",
+      "trigger": "PostFileSave",
+      "matcher": "\\.(ts)$",
+      "action": {
+        "type": "command",
+        "command": "npm test 2>&1 | tail -20"
+      }
+    }
+  ]
+}
