@@ -26,8 +26,10 @@ Zero manual mapping. Zero guesswork. Zero exceptions — ever.
 ## Live Demo
 
 ```
-http://localhost:3000
+https://auragate.vercel.app
 ```
+
+> The web console auto-loads a real ISO-8583 `0200` authorization request on open. No setup needed.
 
 The web console auto-loads a real ISO-8583 `0200` authorization request. Click **Unpack Fields** or **Synthesize OpenAPI + SDK** to see it work instantly.
 

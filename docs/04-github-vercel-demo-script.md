@@ -40,6 +40,7 @@ git init
 # Stage everything — including .kiro which judges MUST see
 git add .
 
+
 # Check what will be committed — confirm .kiro is in the list
 git status
 
@@ -209,11 +210,10 @@ This is your **functional application URL** for the Devpost submission form.
 
 ### SEGMENT 4 — The Opportunity (2:00–2:20)
 
-**[Switch OBS scene: Canva market slide — "$9B market, 10%/year COBOL cliff"]**
+**[Switch OBS scene: Canva market slide — "$8B market, 10%/year COBOL cliff"]**
 
-> *"The mainframe modernisation market is nine billion dollars today, growing to eighteen billion by 2034. COBOL developers are disappearing at 10% per year. AuraGate's value increases every single year as the human experts vanish."*
+> *"An $8 billion market, racing toward $18 billion by 2034, according to Straits Research. COBOL experts retire at roughky 10% a year, and AuraGate grows more valuable with everyone that leaves. This no hackathon toy. It's production-grade, MIT open source, with a path to Saas, projected cash-flow positive by month eleven."*
 
-> *"This is not a hackathon toy. It's a working tool, production-grade, MIT open source, with a clear path to a SaaS business that reaches cash-flow positive in month eleven."*
 
 ---
 
