@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "auragate",
   "version": "0.1.0",
   "description": "Autonomous legacy-to-modern wire protocol bridge and schema synthesizer",
